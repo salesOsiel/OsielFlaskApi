@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .hidden-text {
+            display: none;
+        }
+
+        #reveal:checked + .hidden-text {
+            display: block;
+        }
+    </style>
+    <title>Click to Reveal</title>
+</head>
+<body>
+    <input type="checkbox" id="reveal">
+    <div class="hidden-text">
+        <p>This is the hidden text.</p>
+    </div>
+</body>
+</html>

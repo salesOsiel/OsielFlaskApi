@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    color:#fff;
+    /* text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; */
+}
+
+#credits {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+body {
+    background: radial-gradient(circle at bottom, navy 0, black 100%);
+    height: 100vh;
+    overflow: hidden;
+    color: beige;
+  }
+
+.ball {
+    height: 460px;
+    width: 460px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#name_form {
+    padding-top: 230px;
+}
